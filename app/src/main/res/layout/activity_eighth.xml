@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFBEC"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".EighthActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Value in Meters"
+        />
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:hint="Height (in Meters)"/>
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert" />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result in centimeters:"
+        android:textSize="40sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Next Page"
+        android:id="@+id/NextPage"/>
+
+
+</LinearLayout>

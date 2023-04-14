@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?> <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="#ff141519">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="+918291210676"
+        android:autoLink = "phone"
+        android:textSize="20sp"
+        android:textColorLink="#FFD700"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:layout_centerHorizontal="true"
+        android:text="Anant Misra"
+        android:textSize="20sp"
+        android:textColor="#FEFBEC"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:text="Pregdepatil@reddiffmail.com"
+        android:autoLink = "email"
+        android:textColorLink="#FFD700"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        android:text="google search"
+        android:autoLink="web"
+        android:textSize="20sp"
+        android:textColor="#FEFBEC"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:text="Android Studio"
+        android:textSize="20sp"
+        android:textColor="#FEFBEC"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Next Page"
+        android:id="@+id/NextPage"/>
+
+</RelativeLayout>
+
